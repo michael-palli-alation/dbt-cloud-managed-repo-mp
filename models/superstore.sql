@@ -1,5 +1,5 @@
 with
     superstore as (
         SELECT CITY as city from superstore.public.orders)
-select *
+select CITY
 from superstore

@@ -5,8 +5,8 @@ models:
     - name: superstore
       description: "A dbt model for superstore database"
       columns:
-          - name: id
-            description: "The primary key for this table"
+          - name: CITY
+            description: "A column in the superstore table"
             tests:
                 - unique
                 - not_null
@@ -14,7 +14,7 @@ models:
     - name: superstore_aggr
       description: "A dbt model reference for superstore"
       columns:
-          - name: id
+          - name: CITY
             description: "The primary key for this table"
             tests:
                 - unique

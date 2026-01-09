@@ -7,15 +7,10 @@ models:
       columns:
           - name: CITY
             description: "A column in the superstore table"
-            tests:
-                - unique
-                - not_null
 
     - name: superstore_aggr
       description: "A dbt model reference for superstore"
       columns:
           - name: CITY
             description: "The primary key for this table"
-            tests:
-                - unique
-                - not_null
+

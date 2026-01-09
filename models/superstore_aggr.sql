@@ -1,7 +1,7 @@
 
 with
     superstore_aggr as (
-        select * from {{ ref("superstore")}})
+        select CITY from {{ ref("superstore")}})
     )
-select * 
+select CITY
 from superstore_aggr

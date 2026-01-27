@@ -9,4 +9,4 @@ o.*,
 sal.*
 from o
 left join sal
-  on o.order_date = sal.order_date
+  on o.order_date = sal."DATE"

@@ -1,1 +1,1 @@
-{"_invocation_id": "ded65bbd-af60-45bd-9c96-b0f0a96fd9ed", "linked": {"0": {"name": "model.my_new_project.superstore", "type": "model", "succ": [1]}, "1": {"name": "model.my_new_project.superstore_aggr", "type": "model"}}}
+{"_invocation_id": "ecbe03db-0e48-4e7e-96d7-9483eb71a1bd", "linked": {"0": {"name": "model.my_new_project.superstore", "type": "model", "succ": [1]}, "1": {"name": "model.my_new_project.superstore_aggr", "type": "model"}}}

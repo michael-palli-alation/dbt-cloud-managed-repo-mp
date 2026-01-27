@@ -3,7 +3,7 @@ with er as (
 ),
 p as (
     select * from {{ ref('stg_analytics_people') }}
-)
+),
 r as (
     select * from {{ ref('stg_raw_returns') }}
 )

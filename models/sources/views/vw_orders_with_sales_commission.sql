@@ -9,4 +9,4 @@ select
  sal.*
 from orders o
 left join sales_targets sal
-  on o.order_date = sal.order_date
+  on o.category = sal.category

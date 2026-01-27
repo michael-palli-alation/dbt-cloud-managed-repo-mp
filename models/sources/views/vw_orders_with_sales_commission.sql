@@ -8,5 +8,5 @@ select
  o.*,
  sal.sales_person
 from orders o
-left join sales_commission sal
+left join sal
   on o.category = sal.category

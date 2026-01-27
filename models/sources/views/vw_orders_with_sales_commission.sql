@@ -6,8 +6,7 @@ sal as (
 )
 select 
  o.*,
- sal.order_date, 
- sal.region
+ sal.sales_person
 from orders o
-left join sales_targets sal
+left join sales_commission sal
   on o.category = sal.category

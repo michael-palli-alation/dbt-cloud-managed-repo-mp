@@ -5,8 +5,8 @@ sal as (
     select * from {{ ref('stg_analytics_sales_commission') }}
 )
 select 
-o.*,
-sal.*
+ o.*,
+ sal.*
 from o
 left join sal
-  on o.order_date = sal."DATE"
+  on o.order_date = sal.order_date

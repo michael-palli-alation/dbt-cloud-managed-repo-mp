@@ -5,25 +5,25 @@
     "static_analysis_parsed_path_count": 2,
     "is_partial_parse_enabled": true,
     "is_static_analysis_enabled": true,
-    "read_files_elapsed": 0.014282679185271263,
-    "load_macros_elapsed": 0.5731336623430252,
-    "parse_project_elapsed": 0.30587332881987095,
-    "patch_sources_elapsed": 8.17328691482544e-06,
-    "process_manifest_elapsed": 0.02213943749666214,
-    "load_all_elapsed": 0.9656143235042691,
+    "read_files_elapsed": 0.011829031631350517,
+    "load_macros_elapsed": 0.585940720513463,
+    "parse_project_elapsed": 0.272953137755394,
+    "patch_sources_elapsed": 8.945353329181671e-06,
+    "process_manifest_elapsed": 0.02239757776260376,
+    "load_all_elapsed": 0.9572778483852744,
     "projects": [
         {
-            "project_name": "my_new_project",
-            "elapsed": 0.30387046933174133,
+            "project_name": "dbt_cloud_managed_repo_mp",
+            "elapsed": 0.2710114987567067,
             "parsers": [
                 {
                     "parser": "model",
-                    "elapsed": 0.24178116489201784,
+                    "elapsed": 0.2079734904691577,
                     "parsed_path_count": 2
                 },
                 {
                     "parser": "test",
-                    "elapsed": 0.06103517673909664,
+                    "elapsed": 0.06187523528933525,
                     "parsed_path_count": 1
                 }
             ],
@@ -31,17 +31,17 @@
         },
         {
             "project_name": "dbt_snowflake",
-            "elapsed": 0.000948864035308361,
+            "elapsed": 0.0008817920461297035,
             "parsers": [],
             "parsed_path_count": 0
         },
         {
             "project_name": "dbt",
-            "elapsed": 0.0009622583165764809,
+            "elapsed": 0.000964803621172905,
             "parsers": [
                 {
                     "parser": "doc",
-                    "elapsed": 0.00020125322043895721,
+                    "elapsed": 0.00018780585378408432,
                     "parsed_path_count": 1
                 }
             ],

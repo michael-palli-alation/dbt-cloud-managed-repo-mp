@@ -7,6 +7,6 @@ sal as (
 select 
  o.*,
  sal.*
-from o
+from orders o
 left join sal
   on o.order_date = sal.order_date

@@ -1,5 +1,5 @@
 with s as (
-  SELECT * from {{ ref('stg_raw_orders') }}
+  select * from {{ ref('stg_raw_orders') }}
 ),
 p as (
     select * from {{ ref('stg_analytics_people') }}

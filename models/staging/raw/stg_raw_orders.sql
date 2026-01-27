@@ -1,0 +1,23 @@
+select
+  row_id::number as row_id,
+  order_id::string as order_id,
+  order_date::date as order_date,
+  ship_date::date as ship_date,
+  ship_mode::string as ship_mode,
+  customer_id::string as customer_id,
+  customer_name::string as customer_name,
+  segment::string as segment,
+  country::string as country,
+  city::string as city,
+  state::string as state,
+  postal_code::string as postal_code,
+  region::string as region,
+  product_id::string as product_id,
+  category::string as category,
+  subcategory::string as subcategory,
+  product_name::string as product_name,
+  sales::number(18,4) as sales,
+  quantity::number as quantity,
+  discount::number(5,2) as discount,
+  profit::number(21,16) as profit
+from {{ source('superstore_public_raw', 'orders') }}

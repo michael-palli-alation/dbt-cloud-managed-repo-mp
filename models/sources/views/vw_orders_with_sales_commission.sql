@@ -1,5 +1,5 @@
 with o as (
-    select * from {{ ref('stg_raw_orders') }}
+    select * from {{ ref('stg_raw_returns') }}
 ),
 sal as (
     select * from {{ ref('stg_analytics_sales_commission') }}

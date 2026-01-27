@@ -1,18 +1,28 @@
 {
     "path_count": 166,
-    "parsed_path_count": 0,
-    "static_analysis_path_count": 0,
-    "static_analysis_parsed_path_count": 0,
+    "parsed_path_count": 1,
+    "static_analysis_path_count": 1,
+    "static_analysis_parsed_path_count": 1,
     "is_partial_parse_enabled": true,
     "is_static_analysis_enabled": true,
-    "read_files_elapsed": 0.09652679692953825,
-    "load_all_elapsed": 0.16336718667298555,
+    "read_files_elapsed": 0.09780280012637377,
+    "load_macros_elapsed": 0.0004292000085115433,
+    "parse_project_elapsed": 0.2051982982084155,
+    "patch_sources_elapsed": 2.2487714886665344e-05,
+    "process_manifest_elapsed": 0.0012259185314178467,
+    "load_all_elapsed": 0.36713938415050507,
     "projects": [
         {
             "project_name": "dbt_cloud_managed_repo_mp",
-            "elapsed": 0,
-            "parsers": [],
-            "parsed_path_count": 0
+            "elapsed": 0.2051250897347927,
+            "parsers": [
+                {
+                    "parser": "model",
+                    "elapsed": 0.20511264819651842,
+                    "parsed_path_count": 1
+                }
+            ],
+            "parsed_path_count": 1
         },
         {
             "project_name": "dbt_snowflake",

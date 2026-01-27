@@ -1,4 +1,4 @@
-with er as (
+with s as (
   SELECT * from {{ ref('stg_raw_orders') }}
 ),
 p as (
@@ -7,7 +7,7 @@ p as (
 r as (
     select * from {{ ref('stg_raw_returns') }}
 )
-  select er.*,
+  select s.*,
   p.regional_manager,
   r.returned
   from orders o

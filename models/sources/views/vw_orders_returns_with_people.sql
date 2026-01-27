@@ -1,7 +1,13 @@
 with er as (
   SELECT * from {{ ref('stg_raw_orders') }}
 ),
-  select o.*,
+p as (
+    select * from {{ ref('stg_analytics_people') }}
+)
+r as (
+    select * from {{ ref('stg_raw_returns') }}
+)
+  select er.*,
   p.regional_manager,
   r.returned
   from orders o

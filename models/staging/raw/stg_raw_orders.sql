@@ -14,7 +14,7 @@ select
   region::string as region,
   product_id::string as product_id,
   category::string as category,
-  subcategory::string as subcategory,
+  sub_category::string as subcategory,
   product_name::string as product_name,
   sales::number(18,4) as sales,
   quantity::number as quantity,

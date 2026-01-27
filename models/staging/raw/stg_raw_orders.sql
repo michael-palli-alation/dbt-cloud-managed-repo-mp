@@ -1,5 +1,5 @@
 select
-  row_id::number as row_id,
+  id::number as id,
   order_id::string as order_id,
   order_date::date as order_date,
   ship_date::date as ship_date,

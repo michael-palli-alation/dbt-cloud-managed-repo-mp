@@ -1,51 +1,30 @@
 {
     "path_count": 156,
-    "parsed_path_count": 156,
-    "static_analysis_path_count": 2,
-    "static_analysis_parsed_path_count": 2,
+    "parsed_path_count": 0,
+    "static_analysis_path_count": 0,
+    "static_analysis_parsed_path_count": 0,
     "is_partial_parse_enabled": true,
     "is_static_analysis_enabled": true,
-    "read_files_elapsed": 0.011626005172729492,
-    "load_macros_elapsed": 0.5630259746685624,
-    "parse_project_elapsed": 0.2723659258335829,
-    "patch_sources_elapsed": 8.258968591690063e-06,
-    "process_manifest_elapsed": 0.02176051214337349,
-    "load_all_elapsed": 1.015685592778027,
+    "read_files_elapsed": 0.012018166482448578,
+    "load_all_elapsed": 0.1691931625828147,
     "projects": [
         {
             "project_name": "dbt_cloud_managed_repo_mp",
-            "elapsed": 0.2703317916020751,
-            "parsers": [
-                {
-                    "parser": "model",
-                    "elapsed": 0.20593960490077734,
-                    "parsed_path_count": 2
-                },
-                {
-                    "parser": "test",
-                    "elapsed": 0.0632354998961091,
-                    "parsed_path_count": 1
-                }
-            ],
-            "parsed_path_count": 3
+            "elapsed": 0,
+            "parsers": [],
+            "parsed_path_count": 0
         },
         {
             "project_name": "dbt_snowflake",
-            "elapsed": 0.0009162137284874916,
+            "elapsed": 0,
             "parsers": [],
             "parsed_path_count": 0
         },
         {
             "project_name": "dbt",
-            "elapsed": 0.0010304609313607216,
-            "parsers": [
-                {
-                    "parser": "doc",
-                    "elapsed": 0.00018126610666513443,
-                    "parsed_path_count": 1
-                }
-            ],
-            "parsed_path_count": 1
+            "elapsed": 0,
+            "parsers": [],
+            "parsed_path_count": 0
         }
     ]
 }

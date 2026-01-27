@@ -1,0 +1,14 @@
+version: 2
+
+sources:
+ - name: superstore_public_raw
+   database: SUPERSTORE
+   schema: PUBLIC
+   tables:
+    - name: orders
+    - name: returns
+    - name: sales_targets
+    - name: demand_forecast
+    - name: finance_customer_health
+    - name: people
+    - name: sales_commission

@@ -8,5 +8,5 @@ select
  o.*,
  sal.*
 from orders o
-left join sal
+left join sales_commission sal
   on o.order_date = sal.order_date

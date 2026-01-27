@@ -5,20 +5,20 @@
     "static_analysis_parsed_path_count": 1,
     "is_partial_parse_enabled": true,
     "is_static_analysis_enabled": true,
-    "read_files_elapsed": 0.09055737406015396,
-    "load_macros_elapsed": 0.0003809286281466484,
-    "parse_project_elapsed": 0.188666183501482,
-    "patch_sources_elapsed": 2.3531727492809296e-05,
-    "process_manifest_elapsed": 0.0012409631162881851,
-    "load_all_elapsed": 0.33832088578492403,
+    "read_files_elapsed": 0.08905866369605064,
+    "load_macros_elapsed": 0.00037784967571496964,
+    "parse_project_elapsed": 0.18881538789719343,
+    "patch_sources_elapsed": 2.0770356059074402e-05,
+    "process_manifest_elapsed": 0.001272544264793396,
+    "load_all_elapsed": 0.33898117020726204,
     "projects": [
         {
             "project_name": "dbt_cloud_managed_repo_mp",
-            "elapsed": 0.1885925754904747,
+            "elapsed": 0.18874574173241854,
             "parsers": [
                 {
                     "parser": "model",
-                    "elapsed": 0.18858013581484556,
+                    "elapsed": 0.1887350594624877,
                     "parsed_path_count": 1
                 }
             ],

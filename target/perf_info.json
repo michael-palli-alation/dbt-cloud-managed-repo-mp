@@ -5,8 +5,8 @@
     "static_analysis_parsed_path_count": 0,
     "is_partial_parse_enabled": true,
     "is_static_analysis_enabled": true,
-    "read_files_elapsed": 0.1133809695020318,
-    "load_all_elapsed": 0.187718010507524,
+    "read_files_elapsed": 0.09174396935850382,
+    "load_all_elapsed": 0.15684111695736647,
     "projects": [
         {
             "project_name": "dbt_cloud_managed_repo_mp",

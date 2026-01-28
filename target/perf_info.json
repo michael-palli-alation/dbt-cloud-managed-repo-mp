@@ -1,28 +1,22 @@
 {
     "path_count": 166,
-    "parsed_path_count": 1,
-    "static_analysis_path_count": 1,
-    "static_analysis_parsed_path_count": 1,
+    "parsed_path_count": 0,
+    "static_analysis_path_count": 0,
+    "static_analysis_parsed_path_count": 0,
     "is_partial_parse_enabled": true,
     "is_static_analysis_enabled": true,
-    "read_files_elapsed": 0.09115475229918957,
-    "load_macros_elapsed": 0.0003731902688741684,
-    "parse_project_elapsed": 0.19252838753163815,
-    "patch_sources_elapsed": 2.2555701434612274e-05,
-    "process_manifest_elapsed": 0.0011773426085710526,
-    "load_all_elapsed": 0.3430598881095648,
+    "read_files_elapsed": 0.09338410291820765,
+    "load_macros_elapsed": 0.0004346240311861038,
+    "parse_project_elapsed": 5.650147795677185e-05,
+    "patch_sources_elapsed": 1.5622004866600037e-05,
+    "process_manifest_elapsed": 0.0010355552658438683,
+    "load_all_elapsed": 0.16079843696206808,
     "projects": [
         {
             "project_name": "dbt_cloud_managed_repo_mp",
-            "elapsed": 0.192453196272254,
-            "parsers": [
-                {
-                    "parser": "model",
-                    "elapsed": 0.19244182668626308,
-                    "parsed_path_count": 1
-                }
-            ],
-            "parsed_path_count": 1
+            "elapsed": 0,
+            "parsers": [],
+            "parsed_path_count": 0
         },
         {
             "project_name": "dbt_snowflake",

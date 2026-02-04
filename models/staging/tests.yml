@@ -3,7 +3,7 @@ version: 2
 models:
   - name: stg_raw_orders
     columns:
-      - name: row_id
+      - name: id
         tests: [not_null, unique]
       - name: order_id
         tests: [not_null]

@@ -1,12 +1,12 @@
 {
-    "path_count": 166,
+    "path_count": 167,
     "parsed_path_count": 0,
     "static_analysis_path_count": 0,
     "static_analysis_parsed_path_count": 0,
     "is_partial_parse_enabled": true,
     "is_static_analysis_enabled": true,
-    "read_files_elapsed": 0.08523084502667189,
-    "load_all_elapsed": 0.15192851331084967,
+    "read_files_elapsed": 0.08466716762632132,
+    "load_all_elapsed": 0.14800912607461214,
     "projects": [
         {
             "project_name": "dbt_cloud_managed_repo_mp",
